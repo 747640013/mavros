@@ -123,6 +123,7 @@ endif()
 add_library(mavros_plugins
   src/plugins/3dr_radio.cpp
   src/plugins/actuator_control.cpp
+  src/plugins/servo_output_raw.cpp
   src/plugins/altitude.cpp
   src/plugins/command.cpp
   src/plugins/dummy.cpp
