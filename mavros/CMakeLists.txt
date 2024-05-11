@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(mavros)
+cmake_policy(SET CMP0148 OLD)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -123,6 +124,7 @@ endif()
 add_library(mavros_plugins
   src/plugins/3dr_radio.cpp
   src/plugins/actuator_control.cpp
+  src/plugins/actuator_outputs.cpp
   src/plugins/servo_output_raw.cpp
   src/plugins/altitude.cpp
   src/plugins/command.cpp

@@ -10,6 +10,7 @@ add_message_files(
   FILES
   ADSBVehicle.msg
   ActuatorControl.msg
+  ActuatorOutputs.msg
   Altitude.msg
   AttitudeTarget.msg
   BatteryStatus.msg
